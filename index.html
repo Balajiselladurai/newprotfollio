@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap Font Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Kdam+Thmor+Pro&family=Paytone+One&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="portstyle.css">
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Swiper Js CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body class="back">
+    <div class='navbar-body'>
+        <div class='logo'>
+            <a href="index.html">
+                <h1>Portfolio</h1>
+            </a>
+        </div>
+        <div class='MenuButton'>
+            <button type='button' class='display-in-mobile fa-solid fa-bars' id="menu-btn"></button>
+
+        </div>
+        <div class='toggle-menu-section' id="toggle-menu">
+            <div class="welcome border-bottom border-dark">
+                <div class="welcome-left-heading">
+                    <h4>Welcome to my Portfolio!</h4>
+                </div>
+                <div class="close-btn">
+                    <button type='button' class='display-in-mobile fa-solid fa-xmark' id="close-btn"></button>
+                </div>
+            </div>
+            <div class="Toggle-options">
+                <a href="index.html" class="active text-white">
+                    <h6 class="bg-dark"><i class="fa-solid fa-home text-white"></i>Home</h6>
+                </a>
+                <a href="About.html">
+                    <h6><i class="fa-regular fa-user"></i>About</h6>
+                </a>
+                <a href="Work.html">
+                    <h6><i class="fa-regular fa-folder"></i>Work</h6>
+                </a>
+                <a href="blogs.html">
+                    <h6><i class="fa-brands fa-blogger"></i>Blog</h6>
+                </a>
+                <a href="contact.html">
+                    <h6><i class="fa-regular fa-address-book"></i>Contact</h6>
+                </a>
+            </div>
+
+
+            <div class="footer-back-menu">
+                <div class="footer-bg pb-3 text-white">
+                    <div class="container">
+                        <div class="footer-display">
+                            <div class="py-2 my-2">
+                                <h6 class="signature-on-menu">Balaji</h6>
+                            </div>
+                            <div class="py-2 my-1">
+                                <p class="col-md-4 mb-0 text-body-secondary mt-2 follow-on-medium-screen">Follow Me</p>
+                                <div class="d-flex align-items-center my-2">
+                                    <a href="https://www.facebook.com/share/2qc4UM6UBba68TdS/?mibextid=qi2Omg" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/s._b_a_l_a_j_i?utm_source=qr&igsh=MXQyb2l3c3N4dzRsbQ==" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+
+
+ <a href="https://www.linkedin.com/in/balaji-sellladurai-bala9360?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrXoGH0TATFeXLGa8xhvubQ%3D%3D" target="_blank"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                                <div class="d-flex align-items-center mt-3">
+                                    <a href="https://github.com/balajiselladurai/" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a>
+
+                                </div>
+                            </div>
+                            <div class="py-2 my-2">
+                                <p class="col-md-4 text-body-secondary w-100 fs-5 mb-2">Contact Info</p>
+                                <div class="align-items-center footer-contact">
+                                    <p class="m-0">+91 9360811505</p>
+                                    <p class="mb-0 m-0">balajicse4016@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="font-size: 11.2px; padding-left: 0.5rem;">Portfolio Designed and created by
+                            Balaji</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- cartoon image -->
+    <div class="logo-texture">
+        <img src="logo-texture.png" alt="cartoon image">
+    </div>
+
+    <!-- cartoon image -->
+    <div class="image-container-cartoon">
+        <img src="cartoonsitting.png" alt="cartoon image">
+    </div>
+
+    <!-- main container for the portfolio section -->
+
+    <div class="mainContent container">
+        <div class="leftContainerSection">
+            <div class="box">
+                <div class="ProfileImage">
+                    <a href="image-color-bg.png" target="_blank"><img src="image-color-bg.jpeg" alt="" /></a>
+                </div>
+
+                <h2>Balaji </h2>
+                <p class="container">Fresher / Looking for Web Developer Roles</p>
+
+                <div class="socialMediaIcons container">
+                    <div class="icon-border"><a href="https://www.facebook.com/share/2qc4UM6UBba68TdS/?mibextid=qi2Omg"target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></div>
+                    <div class="icon-border"><a href="https://www.instagram.com/s._b_a_l_a_j_i?utm_source=qr&igsh=MXQyb2l3c3N4dzRsbQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="icon-border"><a href="https://www.linkedin.com/in/balaji-sellladurai-bala9360?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrXoGH0TATFeXLGa8xhvubQ%3D%3D"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="icon-border"><a href="https://github.com/balajiselladurai/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></div>
+                </div>
+                <div class="container mt-4 p-4">
+                    <div class="card persondetails-medium-screen p-2">
+
+                        <div class="person-details">
+                            <div class="icon-border"><span class="p-1"><i class="fa-solid fa-mobile"></i></span>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <h6>+91 9360811505</h6>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="icon-border"><span><i class="fa-regular fa-envelope"></i></span></div>
+                            <div class="details">
+                                <span>Email</span>
+                                <h6>balajicse4016@gmail.com</h6>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="icon-border"><span class="p-1"><i class="fa-solid fa-location-dot"></i></span>
+                            </div>
+                            <div class="details">
+                                <span>Location</span>
+                                <h6>trichy</h6>
+                            </div>
+                        </div>
+
+                        <div class="person-details">
+                            <div class="icon-border"><span><i class="fa-solid fa-cake-candles"></i></span></div>
+                            <div class="details">
+                                <span>Birthday</span>
+                                <h6>april 4, 2003</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="Balaji.scse.pdf" download="Balaji.scse.pdf"><button type="button"
+                            class="btn btn-clr"><span><i class="fa-solid fa-download"> </i></span>
+                            Download CV</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Middle Section -->
+
+        <div class="MiddleContainerSection">
+            <div class="box">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <hr style="width: 20%; height:0.15rem; color: rgb(60, 60, 247); opacity: 0.8; border-radius: 4px; ">
+                </div>
+                <div>
+                    <p class="about-para"> Hello! I'm Balaji, a recent Computer Science graduate eager to
+                        kickstart my career in the dynamic field
+                        of technology. My academic journey has equipped me with strong problem-solving skills and a
+                        foundation in web
+                        development. I specialize in using technologies like java, springboot, JavaScript, HTML, and CSS
+                        to create robust and
+                        visually appealing web applications. Passionate about staying updated with the latest trends,
+                        I'm ready to contribute
+                        fresh ideas and learnings to innovative projects. Let's build something amazing together!
+                    </p>
+                </div>
+                <div class="what-i-do mb-3">
+                    <h3>What I DO!</h3>
+                </div>
+
+                <div class="all-skills mb-3">
+                    <div class="skill-set">
+                        <div class="skill-left-icon-section">
+                            <img src="app-development.png" alt="WebDevelopment-Icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>Image Tampering</h6>
+                            <p>The "ImageTamperGuard" project involved implementing image tampering detection using Invertible Neural Networks (INN)  with a Python Flask framework, and was developed collaboratively with the team.</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="skill-set" style="background-color: var(--fourth-color);">
+                        <div class="skill-left-icon-section">
+                            <img src="ux-design.png" alt="UIUX-Icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>Billinvoice</h6>
+                            <p>The "BillInvoiceManager" project was completed using JSP, focusing on CRUD operations to efficiently manage and process invoice data.</p>
+                           
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="all-skills">
+                    <div class="skill-set" style="background-color: var(--fourth-color);">
+                        <div class="skill-left-icon-section">
+                            <img src="web-design.png" alt="web-design-icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>Employee managementsystem</h6>
+                            <p>The "EmployeeManagement System" project was completed using Spring Boot and Thymeleaf, focusing on CRUD operations to manage and store employee data in a database.</p>
+                           
+                        </div>
+                    </div>
+
+
+                   <div class="skill-set">
+                        <div class="skill-left-icon-section">
+                            <img src="online-shopping.png" alt="ecommerce-icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>WorkforceManagement</h6>
+                            <p>The "WorkforceManager"project was completed using JSP, focusing on CRUD operations for efficient employee data management.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Education Section -->
+
+                <div class="what-i-do my-4">
+                    <h3>Education</h3>
+                </div>
+
+                <div class="all-education-section">
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-1-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>30 april, 2024</span>
+                            <h5>BE</h5>
+                            <span>Computer Science</span>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-3-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>15 July, 2020</span>
+                            <h5>Bio-Science</h5>
+                            <span>GBHRSEC-school</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Experience Section -->
+
+                <div class="what-i-do my-4">
+                    <h3>Experience</h3>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <div class="education-section">
+                        <div class="skill-left-icon-sec">
+                            <i class="bi bi-1-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>02 August, 2023</span>
+                            <h5>Fresher</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="RightContainerSection">
+            <div class="box">
+                <div class="icon-border-nav-items mb-3 active bg-warning"><a href="index.html"><i
+                            class="fa-solid fa-home"></i>
+                        <h5> Home</h5>
+                    </a></div>
+                <div class="icon-border-nav-items mb-3"><a href="About.html"><i class="fa-regular fa-user"></i>
+                        <h5> About</h5>
+                    </a></div>
+                <div class="icon-border-nav-items mb-3"><a href="Work.html"><i class="fa-regular fa-folder"></i>
+                        <h5> Work</h5>
+                    </a></div>
+                <!--<div class="icon-border-nav-items mb-3"><a href="blogs.html"><i class="fa-brands fa-blogger"></i>
+                        <h5> Blogs</h5>
+                    </a></div>-->
+                <div class="icon-border-nav-items"><a href="contact.html"><i class="fa-regular fa-address-book"></i>
+                        <h5> Contact</h5>
+                    </a></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Progress Section -->
+
+    <div class="container">
+        <div class="progress-body">
+            <div class="progress-heading">
+                <h3 class="mt-4 mb-3">My Skills <img src="" alt="" width="45px"></h3>
+            </div>
+            <div class="mb-3">
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-1-circle-fill"></i> java</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-2-circle-fill"></i> Spring</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-3-circle-fill"></i> Bootstarp</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-4-circle-fill"></i> SQL</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-5-circle-fill"></i> POSTGREE SQl</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                </div>
+               
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-7-circle-fill"></i> HTML</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-8-circle-fill"></i> CSS</h4>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><i class="bi bi-9-circle-fill"></i> JavaScript</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+
+                
+                
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><span class="bi-number-circle-fill"> 12 </span> MySQL</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+
+                
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><span class="bi-number-circle-fill"> 14 </span> Git & Github</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4><span class="bi-number-circle-fill"> 15 </span> Problem Solving</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <hr class="hr-style">
+
+
+
+    <!-- Project Section -->
+
+    <div class="container">
+        <h3 class="mt-2 mb-1">My Projects <img src="briefing.png" alt="Project Icon" class="projectIcon" /></h3>
+        <div class="project-section">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="download.jpeg" alt="" />
+                            </div>
+                            <h4>Employeement</h4>
+                            <span> Web Application</span>
+                            <div class="tag">
+                                <h6>spring | springboot </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="projecttt1.jpg" alt="" />
+                            </div>
+                            <h4>Belleloom</h4>
+                            <span> E-commerce Website</span>
+                            <div class="tag">
+                                <h6>Python | Django | JavaScript</h6>
+                            </div>
+                        </div>
+                    </div>!-->
+
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="imagetam.png" alt="" />
+                            </div>
+                            <h4>Image Tampering</h4>
+                            <span>Social media</span>
+                            <div class="tag">
+                                <h6>Python | pycharm | Web Development</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="biii.png" alt="" />
+                            </div>
+                            <h4>Billinvoice</h4>
+                            <span>Web Application </span>
+                            <div class="tag">
+                                <h6>java| HTML|CSS|JS| servlet</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="Projecttt5.jpg" alt="" />
+                            </div>
+                            <h4>Tour India</h4>
+                            <span>Travelling Website</span>
+                            <div class="tag">
+                                <h6>HTML | CSS</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <hr class="hr-style">
+
+    <!-- Youtube Videos -->
+
+    
+
+    <!-- Blogs Section -->
+
+    
+    <!-- footer section -->
+    <div class="footer-bg pb-3 text-white">
+        <div class="container">
+            <div class="footer-display">
+                <div class="py-2 my-2">
+                    <h4 class="signature">Balaji</h4>
+                </div>
+                <div class="py-2 my-2 follow-me">
+                    <p class="col-md-4 mb-0 text-body-secondary">Follow Me</p>
+                    <div class="d-flex align-items-center">
+                        <a href="https://www.facebook.com/share/2qc4UM6UBba68TdS/?mibextid=qi2Omg" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/s._b_a_l_a_j_i?utm_source=qr&igsh=MXQyb2l3c3N4dzRsbQ==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+                        <a href= "https://www.linkedin.com/in/balaji-sellladurai-bala9360?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrXoGH0TATFeXLGa8xhvubQ%3D%3D"target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/balajiselladurai/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+
+                        <a href="https://medium.com/@balajiselladurai" target="_blank"><i
+                                class="fa-brands fa-medium"></i></a>
+
+                    </div>
+                </div>
+                <div class="py-2 my-2">
+                    <p class="col-md-4 text-body-secondary w-100 fs-5 mb-2">Contact Info</p>
+                    <div class="align-items-center footer-contact">
+                        <p class="m-0">+91 9360811505</p>
+                        <p class="mb-0 m-0">balajicse4016@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 11.2px; padding-left: 0.5rem;">Portfolio Designed and created by Balaji</p>
+            <footer class="border-top all-rights-reserved">
+                <p class="col-md-4 mb-0 text-body-secondary">Copyright © 2024 Balaji, All rights reserved.</p>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="text-body-secondary text-white">Home</a></li>
+                    </li>
+                    <li class="nav-item"><a href="contact.html" class="text-body-secondary text-white">Contact</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: false,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                650: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                924: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+</body>
+
+
+
+</html>
